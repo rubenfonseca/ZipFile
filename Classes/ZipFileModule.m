@@ -95,7 +95,6 @@
 			NSLog(@"[DEBUG] file unziped");
 		}
 		[zipArchive UnzipCloseFile];
-		[fileManager removeItemAtPath:file error:NULL];
 	} else  {
 		NSLog(@"[DEBUG] can't open zip");
 	}
